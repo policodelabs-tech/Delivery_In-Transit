@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@drawable/gradient_background_teal"
+    tools:context=".ui.asignacion.AsignacionFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Asignación de pedidos"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aquí asignas los pedidos a tus distintos repartidores..."
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginBottom="32dp" />
+
+        <EditText
+            android:id="@+id/etNombrePersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre de persona a entregar"
+            android:background="@drawable/edit_text_rounded_white"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#888888"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etUbicacionEntrega"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ubicación a entregar"
+            android:background="@drawable/edit_text_rounded_white"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#888888"
+            android:inputType="textPostalAddress"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/etDescripcionPedido"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="120dp"
+            android:hint="Descripción de pedido"
+            android:gravity="top"
+            android:background="@drawable/edit_text_rounded_white"
+            android:padding="16dp"
+            android:textColor="@android:color/black"
+            android:textColorHint="#888888"
+            android:inputType="textMultiLine"
+            android:layout_marginBottom="32dp" />
+
+        <Button
+            android:id="@+id/btnAsignar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Asignar Pedido"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"
+            android:paddingTop="12dp"
+            android:paddingBottom="12dp"
+            android:backgroundTint="#0D47A1" />
+
+    </LinearLayout>
+</ScrollView>

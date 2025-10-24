@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:layout_marginBottom="8dp"
+    android:background="@drawable/list_item_background">
+    <TextView
+    android:id="@+id/tvPendingDateTime"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Pedido de ##/##/20##:##:## Hrs"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPendingLocationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación a entregar:"
+        android:textSize="12sp"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:id="@+id/tvPendingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calle ##, Colonia,\nDelegación/Municipio, Estado, País"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPendingDescriptionLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Descripción de pedido:"
+        android:textSize="12sp"
+        android:textColor="#555555"/>
+
+    <TextView
+        android:id="@+id/tvPendingDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="[Descripción del pedido]"
+        android:textSize="14sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:id="@+id/tvPendingRequester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pedido de B (Usuario)"
+        android:textSize="12sp"
+        android:textColor="#555555"
+        android:gravity="end"/>
+
+</LinearLayout>
