@@ -131,9 +131,9 @@ public class PedidosFragment extends Fragment implements View.OnClickListener {
         // Simulación: crea datos de ejemplo si la lista está vacía
         if (listaPedidosRealizados.isEmpty()) {
             // Usamos el constructor para pedidos realizados
-            listaPedidosRealizados.add(new Pedido("R001", "Pedido de Usuario X 22/10/2025", "Av. Reforma 100", "Documentos urgentes"));
-            listaPedidosRealizados.add(new Pedido("R002", "Pedido de Usuario Y 21/10/2025", "Calle Madero 50", "Comida china"));
-            listaPedidosRealizados.add(new Pedido("R003", "Pedido de Usuario Z 20/10/2025", "Parque Hundido S/N", "Pastel de cumpleaños"));
+            listaPedidosRealizados.add(new Pedido("R001", "Pedido de 22/10/2025", "Av. Reforma 100", "Documentos urgentes"));
+            listaPedidosRealizados.add(new Pedido("R002", "Pedido de 21/10/2025", "Calle Madero 50", "Comida china"));
+            listaPedidosRealizados.add(new Pedido("R003", "Pedido de 20/10/2025", "Parque Hundido S/N", "Pastel de cumpleaños"));
         }
         // Notifica al adapter de realizados que los datos cambiaron
         completedAdapter.notifyDataSetChanged(); // ¡Importante!

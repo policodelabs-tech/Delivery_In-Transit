@@ -6,7 +6,7 @@ public class Pedido {
     private String direccion;
     private String descripcion;
     private String solicitante; // Quién lo pidió (para pendientes)
-    private String usuarioFecha; // Texto combinado para realizados (ej. "Pedido de A (Usuario) ##/##/20##")
+    private String Fecha; // Texto combinado para realizados (ej. "Pedido de A (Usuario) ##/##/20##")
     private String estado; // "En curso", "Pendiente", "Realizado"
 
     // Constructor vacío (necesario para algunas librerías como Firebase)
@@ -24,9 +24,9 @@ public class Pedido {
     }
 
     // Constructor para un pedido realizado (ejemplo)
-    public Pedido(String id, String usuarioFecha, String direccion, String descripcion) {
+    public Pedido(String id, String Fecha, String direccion, String descripcion) {
         this.id = id;
-        this.usuarioFecha = usuarioFecha;
+        this.Fecha = Fecha;
         this.direccion = direccion;
         this.descripcion = descripcion;
         this.estado = "Realizado";
@@ -50,8 +50,8 @@ public class Pedido {
     public String getSolicitante() { return solicitante; }
     public void setSolicitante(String solicitante) { this.solicitante = solicitante; }
 
-    public String getUsuarioFecha() { return usuarioFecha; }
-    public void setUsuarioFecha(String usuarioFecha) { this.usuarioFecha = usuarioFecha; }
+    public String getUsuarioFecha() { return Fecha; }
+    public void setUsuarioFecha(String Fecha) { this.Fecha = Fecha; }
 
     public String getEstado() { return estado; }
     public void setEstado(String estado) { this.estado = estado; }
