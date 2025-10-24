@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:paddingtop="90dp"
     android:background="@drawable/gradient_background_teal"
     tools:context=".ui.rutas.RutasFragment">
 
