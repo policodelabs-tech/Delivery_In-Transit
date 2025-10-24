@@ -21,7 +21,15 @@
         android:textSize="16sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:layout_marginBottom="60dp"/>
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginBottom="20dp"/>
 
     <TextView
         android:layout_width="match_parent"
