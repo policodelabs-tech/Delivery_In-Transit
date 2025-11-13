@@ -14,19 +14,10 @@
 
     <ImageView
         android:id="@+id/imagen"
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="380dp"
+        android:layout_height="80dp"
         android:src="@drawable/delivery_in_transit"
         tools:ignore=",MissingConstraints"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Delivery In-Transit"
-        android:textSize="45dp"
-        android:textStyle="bold"
-        android:textAlignment="center"
-        android:textColor="@color/black"
-        android:layout_marginBottom="60dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
